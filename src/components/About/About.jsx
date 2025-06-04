@@ -68,7 +68,7 @@ const About = () => {
           {/* Resume Button */}
           <Reveal delay={0.9}>
             <a
-              href="https://drive.google.com/file/d/1dw2vcC3fkoyrvvNu3yBF3SmGXPjd-mro/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1ecezXlZFhz8dDI7kJHCD8W2QwL2XQbej/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
