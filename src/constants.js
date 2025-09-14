@@ -40,6 +40,10 @@ import Jupyternotebook from './assets/tech_logo/Jupyternotebook.png';
 import workbench from './assets/tech_logo/workbench.jpg';
 import rstudio from './assets/tech_logo/rstudio.png';
 import mongoose from './assets/tech_logo/mongoose.png';
+import powerbi from './assets/tech_logo/powerbi.png';
+import excel from './assets/tech_logo/excel.png';
+import jira from './assets/tech_logo/jira.png';
+import npm from './assets/tech_logo/npm.png';
 
 // Experience Section Logo's
 import SofwareEngineer from './assets/company_logo/SofwareEngineer.png';
@@ -53,6 +57,8 @@ import nitslogo from './assets/education_logo/nits_logo.png';
 import HomePage from './assets/work_logo/HomePage.png';
 import Yoga from './assets/work_logo/Yoga.png';
 import portfolio from './assets/work_logo/portfolio.png';
+import irs from './assets/work_logo/irs.png';
+
 
 
 
@@ -116,9 +122,12 @@ export const SkillsInfo = [
       { name: 'Jupyter Notebook', logo: Jupyternotebook },
       { name: 'MySQL Workbench', logo: workbench },
       { name: 'RStudio', logo: rstudio },
+      { name: 'figma', logo: figmaLogo },
       { name: 'Vercel', logo: vercelLogo },
-      // { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: 'npm', logo: npm },
+      { name: 'jira', logo: jira },
+      { name: 'excel', logo: excel },
+      { name: 'powerbi', logo: powerbi },
     ],
   },
 ];
@@ -150,7 +159,7 @@ export const experiences = [
     ],
   },
 
-    {
+  {
     id: 1,
     img: SofwareEngineer,
 
@@ -234,7 +243,7 @@ export const projects = [
       "JavaScript"
     ],
     github: "https://github.com/Harsh31750/movie-explorer-react",
-    webapp: "https://vercel.app/",
+    webapp: "https://movie-explorer-react-pied.vercel.app/",
   },
 
   {
@@ -256,6 +265,17 @@ export const projects = [
     image: portfolio,
     tags: ["React JS", "HTML", "CSS", "JavaScript", "Responsive Design"],
     github: "https://github.com",
+    webapp: "https://vercel.app/",
+  },
+
+  {
+    id: 4,
+    title: "Intelligent Retention System (IRS)",
+    description:
+      "A complete end-to-end project for user retention, churn prediction, CLV estimation, and personalized intervention recommendations. Designed for food delivery / e-commerce platforms to analyze user behavior, predict churn, calculate CLV, and generate tailored interventions to maximize retention and revenue.",
+    image: irs,
+    tags: ["Python", "Flask", "Streamlit", "scikit-learn", "Pandas", "NumPy", "Joblib", "Matplotlib", "Seaborn", "Machine Learning", "REST APIs", "SQL", "MySQL", "Power BI", "Excel", "Git / GitHub", "Postman"],
+    github: "https://github.com/Harsh31750/intelligent-retention-system.git",
     webapp: "https://vercel.app/",
   }
 

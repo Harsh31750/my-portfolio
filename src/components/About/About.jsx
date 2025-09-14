@@ -33,11 +33,8 @@ const About = () => {
               <span className="text-white">I am a </span>
               <ReactTypingEffect
                 text={[
-                  "SOFTWARE ENGINEER",
-                  "Fullstack Developer",
-                  "Web Developer",
-                  "App Developer",
-                  "UI/UX Designer",
+                  "Software Engineer",
+                  "Data Science & Analytics Engineer",
                   "Coder",
                 ]}
                 speed={100}
@@ -54,21 +51,14 @@ const About = () => {
           {/* About Me Paragraph */}
           <Reveal delay={0.7}>
             <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-              I’m a CSE graduate from NIT Silchar, A Software Engineer with 2+
-              years of experience in building scalable, efficient web
-              applications. Proficient in front-end and back-end development, I
-              have a strong grasp of C++, data structures, and algorithms. My
-              expertise includes web and mobile app development (Android/iOS),
-              AI/ML, and other modern technologies — enabling seamless user
-              experiences and effective solutions. I’m passionate about emerging
-              technologies and continuously evolving as a Software Engineer.
+              I’m a CSE graduate from NIT Silchar, Software Engineer with 2+ years of experience in building scalable and efficient full-stack web & mobile applications. Currently, I am focused on enhancing my expertise in Data Science and Analytics. I have a strong grasp of C++, data structures and algorithms. My expertise spans web and mobile app development (Android/iOS), AI/ML, and other modern technologies — enabling seamless user experiences and effective solutions.
             </p>
           </Reveal>
 
           {/* Resume Button */}
           <Reveal delay={0.9}>
             <a
-              href="https://drive.google.com/file/d/1ecezXlZFhz8dDI7kJHCD8W2QwL2XQbej/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1uAop1mIMzJwI-tYhQo1aEnxShO531zx-/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
